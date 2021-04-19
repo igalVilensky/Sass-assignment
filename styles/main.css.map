@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/_body.scss","../scss/_mixins.scss"],"names":[],"mappings":"AAAA;ECCE;EACA;EACA;EASA;EACA;;;ADTF;ECGE;EACA;EASA;EACA;EAIA","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/_variables.scss","../scss/_mixins.scss","../scss/_body.scss"],"names":[],"mappings":"AAAA;EACE;;;ACoDF;EACE;IAjBA;IACA;IAmBE;;EAGF;IAjBA;IACA;IAjBA;IAMA;IA+BE;IACA;;;ACjEJ;EDGE;EACA;EACA;EASA;EACA;;;ACXF;EDDE;EACA;EACA;EAIA;EACA;EASA;EAIA;EAwBA;EACA;EACA;EACA","file":"main.css"}
