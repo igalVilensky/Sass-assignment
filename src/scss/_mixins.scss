@@ -1,0 +1,24 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin size {
+  width: 200px;
+  height: 200px;
+}
+
+@mixin bodySize {
+  height: 100vh;
+  width: 100%;
+}
+
+@mixin color {
+  background: gray;
+  border: 1px dotted black;
+}
+
+@mixin margin {
+  margin: 10px;
+}

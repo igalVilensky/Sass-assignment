@@ -1,0 +1,9 @@
+body {
+  @include center;
+  @include bodySize;
+}
+div {
+  @include size;
+  @include color;
+  @include margin;
+}
