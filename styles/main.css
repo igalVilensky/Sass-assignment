@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  border: 1px dotted black;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
