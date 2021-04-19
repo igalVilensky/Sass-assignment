@@ -3,7 +3,9 @@ body {
   @include bodySize;
 }
 div {
+  @include center;
   @include size;
   @include color;
   @include margin;
+  @include fade-in(3s);
 }

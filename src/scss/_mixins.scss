@@ -1,24 +1,68 @@
+// Center an element
+
 @mixin center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+// basic size for an element
 @mixin size {
   width: 200px;
   height: 200px;
 }
-
+// body full screen size
 @mixin bodySize {
   height: 100vh;
   width: 100%;
 }
-
+// background color
 @mixin color {
   background: gray;
-  border: 1px dotted black;
 }
-
+// margin
 @mixin margin {
   margin: 10px;
+}
+// border radius to make circle
+@mixin circle {
+  border-radius: 50%;
+}
+
+// border
+
+@mixin border {
+  border: 10px solid var(--main-bg-color);
+}
+// Hide element
+@mixin hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+// Fade
+@mixin reveal {
+  opacity: 1;
+  visibility: visible;
+}
+@mixin fade-in($time) {
+  animation-name: fade-in;
+  animation-duration: #{$time};
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes fade-in {
+  0% {
+    @include hide;
+
+    transform: scale(0) rotate(0deg);
+  }
+
+  100% {
+    @include reveal;
+    @include circle;
+    @include border;
+    background-color: red;
+    transform: scale(1) rotate(720deg);
+  }
 }
